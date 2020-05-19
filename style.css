@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #E8EAF6;
+}
+
+header {
+    background-color: lightsalmon;
+    height: 2em;
+    font-size: 30px;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 10%;
+    height: 100%;
+    opacity: 30%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a {
+    margin: 10px 10px 10px 20px;
+}
